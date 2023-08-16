@@ -1,0 +1,17 @@
+1.start -dfs.sh && start-yarn.sh #to start hdfs
+
+2.jps
+
+3.hdfs dfs -mkdir/user/test_dir
+
+4.hdfs dfs -ls /user/
+
+5.gedit file.txt
+
+6.hdfs dfs -put file.txt /user/test_dir
+
+7.hdfs dfs-put file1.txt file2.txt /user/test_dir
+
+8.hdfs dfs -cat /user/test_dir/filename.txt
+
+9.hdfs dfs -get user/test_dir/flename.txt home/sois/Desktop
